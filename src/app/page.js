@@ -30,13 +30,19 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center items-center">
-            <img src="/google.png" alt="" className="w-5 h-5 mr-5" />
-            <img src="/facebook.png" alt="" className="w-5 h-5 ml-5" />
+            <a href="">
+              <img src="/google.png" alt="" className="w-5 h-5 mr-5" />
+            </a>
+            <a href="">
+              <img src="/facebook.png" alt="" className="w-5 h-5 ml-5" />
+            </a>
           </div>
 
           <br />
           <div className="flex justify-center items-center text-xl">
-            <p>Not yet registered, Click here to sign up</p>
+            <p>
+              Not yet registered, Click <a href="">here</a> to sign up
+            </p>
           </div>
         </div>
         <div className="w-1/2">
